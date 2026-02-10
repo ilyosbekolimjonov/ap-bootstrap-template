@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #1C1E53;
+    padding: 25px 0;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand img {
+    height: 24px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+}
+
+.nav-list a.active {
+    color: #fff;
+}
+
+.contact-btn {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 8px 24px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #fff;
+    color: #1C1E53;
+}
+
+.hero-section {
+    padding: 150px 0 80px;
+}
+
+.hero-row {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-content {
+    width: 50%;
+    padding-right: 157px;
+}
+
+.hero-label {
+    color: #1e2024;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.hero-section h1 {
+    color: #1C1E53;
+    line-height: 1.2;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    max-width: 450px;
+    color: #6b7280;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.who-we-are {
+    padding: 60px 0;
+}
+
+.features-row {
+    background-color: #e9eaec;
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.feature {
+    width: 50%;
+}
+
+.feature h3 {
+    color: #1C1E53;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.feature p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+.image-row {
+    background-color: #e9eaec;
+}
+
+.image-row img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+/* Meet Our Team */
+.our-team {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.our-team h2 {
+    color: #1C1E53;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.our-team {
+    background-color: rgb(230, 233, 237);
+}
+
+.team-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.team-card {
+    flex: 1;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.team-img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+
+.team-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    background-color: #1C1E53;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) invert(1);
+}
+
+.team-card h4 {
+    color: #1C1E53;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.team-card p {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #1C1E53;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.footer-row {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-left {
+    width: 45%;
+}
+
+.footer-brand {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-brand img {
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-left>p {
+    width: 70%;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 40px;
+    background-color: rgba(252, 217, 128, 1);
+    padding: 20px 30px;
+    border-radius: 8px;
+    color: rgba(40, 41, 56, 1);
+    width: 45%;
+}
+
+.contact-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.contact-item span:last-child {
+    color: rgba(40, 41, 56, 1);
+    font-size: 0.9rem;
+}
+
+.footer-right {
+    width: 55%;
+}
+
+.footer-right h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-right>p {
+    width: 60%;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-socials a img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
